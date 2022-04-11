@@ -1,0 +1,12 @@
+create table db;
+use db 
+create table t(
+    id int AUTO_INCREMENT not null primary key,
+    title varchar(255) DEFAULT null
+)
+insert into t(
+    title
+)
+values(
+    "那是我日思夜想深深爱着的人啊"
+)

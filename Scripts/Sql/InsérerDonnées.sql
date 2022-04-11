@@ -1,0 +1,20 @@
+insert into utilisateur(
+    utilisateur_ip,
+    utilisateur_nom,
+    utilisateur_mot_de_passe,
+    utilisateur_email,
+    utilisateur_date_inscription,
+    utilisateur_anniversaire,
+    utilisateur_Numéro_téléphone,
+    utilisateur_surnom
+)
+values(
+    '172.1.1.1',
+    'yangxu',
+    '123456',
+    '2212346907@qq.com',
+    now(),
+    curdate(),
+    '15278691023',
+    '九日'
+)
